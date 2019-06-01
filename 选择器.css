@@ -1,0 +1,41 @@
+ul {
+  padding: 0;
+}
+
+li {
+  padding: 3px;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+:nth-of-type(2n) {
+  background-color: #ccc;
+}
+
+:nth-of-type(2n+1) {
+  background-color: #eee;
+}
+
+::first-line{
+  font-weight: bold;
+}
+
+::first-letter {
+  font-size: 3em;
+  border: 1px solid black;
+  background: red;
+  display: block;
+  float: left;
+  padding: 2px;
+  margin-right: 4px;
+}

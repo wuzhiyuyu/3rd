@@ -1,0 +1,145 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+html {
+  font-size: 10px;
+  font-family: serif;
+}
+
+h1,h2 {
+  font-family: sans-serif,"slab serif";
+  letter-spacing: 0.1em;
+}
+
+body {
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2em;
+}
+
+body p {
+  letter-spacing: 0;
+  word-spacing: 0.1em;
+  font-size: 1.5em;
+}
+
+aside a{
+  font-size:1.5em;
+}
+
+section p {
+  text-indent: 2em;
+}
+
+nav{
+  font-size:2em;
+}
+
+a:link {
+  color: #a66;
+}
+
+a:hover {
+  text-decoration: none
+}
+
+a:visited {
+  color: #c66;
+}
+
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:active {
+  color:yellow;
+}
+
+a[href*="http"] {
+  background: url('images/1.png') no-repeat 100% 0;
+  background-size: 1em 1em;
+  padding-right: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline;
+  outline: none;
+  width: 4em;
+  line-height: 2;
+}
+
+nav li {
+  border:2px solid #c66;
+  padding:0.5em 1em 0.5em 1em;
+  text-align: center;
+  margin:0.5em auto;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav a:link,nav a:visited,nav a:focus {
+  border-color: #c66;
+}
+nav li:hover {
+  background-color: pink;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: 
+}
+ol {
+  list-style-type: lower-latin;
+}
